@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0716D94329310AB0001C9F20 /* Cone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0716D94229310AB0001C9F20 /* Cone.swift */; };
+		0716D94529310DCE001C9F20 /* RightCircularCylinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0716D94429310DCE001C9F20 /* RightCircularCylinder.swift */; };
+		0716D947293113B4001C9F20 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0716D946293113B4001C9F20 /* Sphere.swift */; };
+		072F898429338AAF003F7BA9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072F898329338AAF003F7BA9 /* Repository.swift */; };
+		0770D21D2930C2E000B728BE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D21C2930C2E000B728BE /* main.swift */; };
+		0770D2242930C2F500B728BE /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D2232930C2F500B728BE /* Shape.swift */; };
+		0770D2262930C41300B728BE /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D2252930C41300B728BE /* Rectangle.swift */; };
+		0770D2282930C70B00B728BE /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D2272930C70B00B728BE /* Square.swift */; };
+		0770D22A2930CB6D00B728BE /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D2292930CB6D00B728BE /* Triangle.swift */; };
+		0770D22C2930CD4300B728BE /* RightTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D22B2930CD4300B728BE /* RightTriangle.swift */; };
+		0770D2302930CEAF00B728BE /* Pythagorean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D22F2930CEAF00B728BE /* Pythagorean.swift */; };
+		0770D2322930CF9E00B728BE /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D2312930CF9E00B728BE /* Trapezoid.swift */; };
+		0770D2342930D5EA00B728BE /* Parallelogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D2332930D5EA00B728BE /* Parallelogram.swift */; };
+		0770D2392930D75E00B728BE /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D2382930D75E00B728BE /* Circle.swift */; };
+		0770D23B2930D91500B728BE /* Rectangular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D23A2930D91500B728BE /* Rectangular.swift */; };
+		0770D23D2930DCA400B728BE /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770D23C2930DCA400B728BE /* Cube.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0770D2172930C2E000B728BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0716D94229310AB0001C9F20 /* Cone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cone.swift; sourceTree = "<group>"; };
+		0716D94429310DCE001C9F20 /* RightCircularCylinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightCircularCylinder.swift; sourceTree = "<group>"; };
+		0716D946293113B4001C9F20 /* Sphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		072F898329338AAF003F7BA9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		0770D2192930C2E000B728BE /* Geometria */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Geometria; sourceTree = BUILT_PRODUCTS_DIR; };
+		0770D21C2930C2E000B728BE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0770D2232930C2F500B728BE /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		0770D2252930C41300B728BE /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		0770D2272930C70B00B728BE /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		0770D2292930CB6D00B728BE /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		0770D22B2930CD4300B728BE /* RightTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightTriangle.swift; sourceTree = "<group>"; };
+		0770D22F2930CEAF00B728BE /* Pythagorean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pythagorean.swift; sourceTree = "<group>"; };
+		0770D2312930CF9E00B728BE /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
+		0770D2332930D5EA00B728BE /* Parallelogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parallelogram.swift; sourceTree = "<group>"; };
+		0770D2382930D75E00B728BE /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		0770D23A2930D91500B728BE /* Rectangular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular.swift; sourceTree = "<group>"; };
+		0770D23C2930DCA400B728BE /* Cube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0770D2162930C2E000B728BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0770D2102930C2E000B728BE = {
+			isa = PBXGroup;
+			children = (
+				0770D21B2930C2E000B728BE /* Geometria */,
+				0770D21A2930C2E000B728BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0770D21A2930C2E000B728BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0770D2192930C2E000B728BE /* Geometria */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0770D21B2930C2E000B728BE /* Geometria */ = {
+			isa = PBXGroup;
+			children = (
+				0770D21C2930C2E000B728BE /* main.swift */,
+				0770D2232930C2F500B728BE /* Shape.swift */,
+				072F898329338AAF003F7BA9 /* Repository.swift */,
+				0770D2372930D73500B728BE /* CircularGroup */,
+				0770D2362930D6F600B728BE /* RectangleGroup */,
+			);
+			path = Geometria;
+			sourceTree = "<group>";
+		};
+		0770D2362930D6F600B728BE /* RectangleGroup */ = {
+			isa = PBXGroup;
+			children = (
+				0770D23A2930D91500B728BE /* Rectangular.swift */,
+				0770D2252930C41300B728BE /* Rectangle.swift */,
+				0770D2272930C70B00B728BE /* Square.swift */,
+				0770D2292930CB6D00B728BE /* Triangle.swift */,
+				0770D22B2930CD4300B728BE /* RightTriangle.swift */,
+				0770D2312930CF9E00B728BE /* Trapezoid.swift */,
+				0770D22F2930CEAF00B728BE /* Pythagorean.swift */,
+				0770D2332930D5EA00B728BE /* Parallelogram.swift */,
+				0770D23C2930DCA400B728BE /* Cube.swift */,
+			);
+			path = RectangleGroup;
+			sourceTree = "<group>";
+		};
+		0770D2372930D73500B728BE /* CircularGroup */ = {
+			isa = PBXGroup;
+			children = (
+				0716D94229310AB0001C9F20 /* Cone.swift */,
+				0716D94429310DCE001C9F20 /* RightCircularCylinder.swift */,
+				0716D946293113B4001C9F20 /* Sphere.swift */,
+				0770D2382930D75E00B728BE /* Circle.swift */,
+			);
+			path = CircularGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0770D2182930C2E000B728BE /* Geometria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0770D2202930C2E000B728BE /* Build configuration list for PBXNativeTarget "Geometria" */;
+			buildPhases = (
+				0770D2152930C2E000B728BE /* Sources */,
+				0770D2162930C2E000B728BE /* Frameworks */,
+				0770D2172930C2E000B728BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geometria;
+			productName = Geometria;
+			productReference = 0770D2192930C2E000B728BE /* Geometria */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0770D2112930C2E000B728BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0770D2182930C2E000B728BE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 0770D2142930C2E000B728BE /* Build configuration list for PBXProject "Geometria" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0770D2102930C2E000B728BE;
+			productRefGroup = 0770D21A2930C2E000B728BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0770D2182930C2E000B728BE /* Geometria */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0770D2152930C2E000B728BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0770D2342930D5EA00B728BE /* Parallelogram.swift in Sources */,
+				0770D2282930C70B00B728BE /* Square.swift in Sources */,
+				0770D2262930C41300B728BE /* Rectangle.swift in Sources */,
+				0716D94329310AB0001C9F20 /* Cone.swift in Sources */,
+				0770D2302930CEAF00B728BE /* Pythagorean.swift in Sources */,
+				0716D947293113B4001C9F20 /* Sphere.swift in Sources */,
+				0770D23B2930D91500B728BE /* Rectangular.swift in Sources */,
+				0770D22C2930CD4300B728BE /* RightTriangle.swift in Sources */,
+				0770D2392930D75E00B728BE /* Circle.swift in Sources */,
+				0770D2322930CF9E00B728BE /* Trapezoid.swift in Sources */,
+				0716D94529310DCE001C9F20 /* RightCircularCylinder.swift in Sources */,
+				072F898429338AAF003F7BA9 /* Repository.swift in Sources */,
+				0770D23D2930DCA400B728BE /* Cube.swift in Sources */,
+				0770D22A2930CB6D00B728BE /* Triangle.swift in Sources */,
+				0770D21D2930C2E000B728BE /* main.swift in Sources */,
+				0770D2242930C2F500B728BE /* Shape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0770D21E2930C2E000B728BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0770D21F2930C2E000B728BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0770D2212930C2E000B728BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0770D2222930C2E000B728BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0770D2142930C2E000B728BE /* Build configuration list for PBXProject "Geometria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0770D21E2930C2E000B728BE /* Debug */,
+				0770D21F2930C2E000B728BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0770D2202930C2E000B728BE /* Build configuration list for PBXNativeTarget "Geometria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0770D2212930C2E000B728BE /* Debug */,
+				0770D2222930C2E000B728BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0770D2112930C2E000B728BE /* Project object */;
+}
